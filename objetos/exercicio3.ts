@@ -53,18 +53,18 @@ type Psiquico = {poder:string, estatura:number}
 type Lider = {lider:boolean, miembros:string[] }
 // Multiples tipos
 // cree dos tipos, uno para charles y otro para apocalipsis
-let charless:Psiquico | Lider = {
+let charles:Psiquico | Lider = {
   poder:"psiquico",
   estatura: 1.78
 };
 
-let apocalipsiss:Psiquico | Lider = {
+let apocalipsis:Psiquico | Lider = {
   lider:true,
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
 }
 
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
-let mystiquee:Psiquico | Lider;
+let mystique:Psiquico | Lider;
 
 mystique = charles;
 mystique = apocalipsis;
